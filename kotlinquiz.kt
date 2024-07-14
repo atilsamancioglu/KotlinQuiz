@@ -11,21 +11,21 @@
 
 // 3) Aşağıdaki print hangi değeri yazdıracaktır?
 
- 	val myList = arrayListOf(2,5,10,-20,-1,40,20,1,1,1,2,4)
-    val myIx = 10 - (2*3)
-    println(myList[myIx])
+	val myList = arrayListOf(2,5,10,-20,-1,40,20,1,1,1,2,4)
+    	val myIx = 10 - (2*3)
+    	println(myList[myIx])
 
 // 4) Kotlin'de gerekli olduğu takdirde iç içe listeler (nested list) oluşturabiliriz. İlk 3 satır kodu incelediğinizde 4. satırdaki print'in hangi değeri yazdırmasını beklersiniz?
 
-    val myList = arrayListOf(2,5,10)
-    val mySecondList = arrayListOf(4,8,6)
+    	val myList = arrayListOf(2,5,10)
+    	val mySecondList = arrayListOf(4,8,6)
 	val myNestedList = arrayListOf(myList,mySecondList)
 	println(myNestedList[0][2])
 
 
 // 5) Aşağıdaki print hangi çıktıyı yazdıracaktır?
 
-		val mySet = HashSet<String>()
+	val mySet = HashSet<String>()
         mySet.add("kotlin")
         mySet.add("Kotlin")
         mySet.add("Kotlin")
@@ -39,7 +39,6 @@
 
 // 6) Aşağıdaki print hangi çıktıyı yazdıracaktır?
 
-		
         val myMap = hashMapOf<String, Int>()
         myMap.put("Atlas",20)
         myMap.put("Atıl",30)
@@ -51,7 +50,6 @@
 
 // 7) Aşağıdaki print hangi çıktıyı yazdıracaktır?
 
-		
         val myMap = hashMapOf<String, Int>()
         myMap.put("Atlas",20)
         myMap.put("Atıl",30)
@@ -59,7 +57,6 @@
         val myPerson = "Atlas"
 
         println("${myPerson}'ın yaşı ${myMap[myPerson]}'dır")
-
 
 // 8) Aşağıdakilerden hangisi Kotlin için doğru fonksiyon tanımlama yöntemidir?
 
@@ -81,5 +78,3 @@
 	// b) var myVar: Int
 	// c) val myVar: Int
 	// d) const myVar: Int
-	
-
