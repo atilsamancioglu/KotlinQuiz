@@ -48,15 +48,10 @@
         println("${myPerson}'ın yaşı ${myMap[myPerson]}'dır")
 
 
-// 7) Aşağıdaki print hangi çıktıyı yazdıracaktır?
+// 7) Aşağıdaki listeyi set'e çevirip, boyutunu yazdırırsanız kaç yazacaktır?
 
-        val myMap = hashMapOf<String, Int>()
-        myMap.put("Atlas",20)
-        myMap.put("Atıl",30)
-        myMap.put("Zeynep",40)
-        val myPerson = "Atlas"
+        val myList = arrayListOf("abc", "abc", "def", "ghe", "abc", "def", "ghe", "efd", "abc")
 
-        println("${myPerson}'ın yaşı ${myMap[myPerson]}'dır")
 
 // 8) Aşağıdakilerden hangisi Kotlin için doğru fonksiyon tanımlama yöntemidir?
 
@@ -77,4 +72,4 @@
 	// a) let myVar: Int
 	// b) var myVar: Int
 	// c) val myVar: Int
-	// d) const myVar: Int
+	// d) constant myVar: Int
